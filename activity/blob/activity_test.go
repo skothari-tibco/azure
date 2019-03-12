@@ -51,7 +51,7 @@ func TestSimpleUpdate(t *testing.T) {
 
 func TestSimpleList(t *testing.T) {
 	settings := &Settings{Method: "list",
-		AZURE_STORAGE_ACCESS_KEY: "VU4lKfOQMV8YlzKj3GYJzqvntZEfBdAlb1qGaHRvCfW8Jmvc5k+27EWJa0vwapa3KjhivfN3BhulBm4auHlTrg==", AZURE_STORAGE_ACCOUNT: "blobtesttibco",
+		AZURE_STORAGE_ACCESS_KEY: "...", AZURE_STORAGE_ACCOUNT: "blobtesttibco",
 		ContainerName: "sample"}
 
 	iCtx := test.NewActivityInitContext(settings, nil)
